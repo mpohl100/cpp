@@ -6,10 +6,9 @@
 
 namespace lib{
 
-void say_hello(std::string const& name)
+void say_hello(std::string name)
 {
-    auto sorted = name | ranges::actions::sort;
-    std::cout << "Hello, " << sorted << "!" << '\n';
+    std::cout << "Hello, " << name << "!" << '\n';
 }
 
 }

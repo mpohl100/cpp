@@ -2,6 +2,6 @@
 
 namespace lib{
 
-void say_hello(std::string const& name);
+void say_hello(std::string name);
 
 }
